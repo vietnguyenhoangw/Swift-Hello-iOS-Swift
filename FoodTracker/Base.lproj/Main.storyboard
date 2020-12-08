@@ -16,15 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4JA-qj-CKd">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4JA-qj-CKd" userLabel="ViewPurple">
                                 <rect key="frame" x="207" y="0.0" width="207" height="368"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48R-tT-N4p">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48R-tT-N4p" userLabel="ViewPink">
                                 <rect key="frame" x="0.0" y="368" width="414" height="368"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I2H-qb-Sk2" userLabel="ViewWhite">
+                                        <rect key="frame" x="107" y="84" width="200" height="200"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="Rq7-lM-aMW"/>
+                                            <constraint firstAttribute="height" constant="200" id="mwU-7f-dhU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstItem="I2H-qb-Sk2" firstAttribute="centerX" secondItem="48R-tT-N4p" secondAttribute="centerX" id="Aad-NY-NyE"/>
+                                    <constraint firstItem="I2H-qb-Sk2" firstAttribute="centerY" secondItem="48R-tT-N4p" secondAttribute="centerY" id="NXJ-QS-vBo"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="co9-Rn-jit">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="co9-Rn-jit" userLabel="ViewBlue">
                                 <rect key="frame" x="0.0" y="0.0" width="207" height="368"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
