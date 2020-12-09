@@ -34,6 +34,20 @@ class BlueScreenViewController: UIViewController {
         print("BLUE SCREEN DISAPPEAR - viewDidDisappear")
     }
 
+    @IBAction func GOTO_PROFILE_BTN(_ sender: Any) {
+        self.navigateToProfile()
+    }
+    
+    func navigateToProfile () {
+        // create a story broad
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        
+        // create new screen
+        guard let profileScreen = storyBoard.instantiateViewController(withIdentifier: "ProfleScreen") as? ProfileViewController else { return print("false") }
+        
+        // navigation to screen (push, pop)
+        self.navigationController?.pushViewController(profileScreen, animated: true)
+    }
     
 
     /*

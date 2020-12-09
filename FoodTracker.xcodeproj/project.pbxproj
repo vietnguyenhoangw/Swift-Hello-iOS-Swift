@@ -15,6 +15,7 @@
 		DC7E53CD257F844E00D8B151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7E53CB257F844E00D8B151 /* LaunchScreen.storyboard */; };
 		DC7E53D8257F844F00D8B151 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E53D7257F844F00D8B151 /* FoodTrackerTests.swift */; };
 		DC7E53E3257F844F00D8B151 /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E53E2257F844F00D8B151 /* FoodTrackerUITests.swift */; };
+		DC8E6DBE2580DC9A0029968F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E6DBD2580DC9A0029968F /* ProfileViewController.swift */; };
 		DCD7EECC257FD79900C6921F /* BlueScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7EECB257FD79900C6921F /* BlueScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		DC7E53DE257F844F00D8B151 /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7E53E2257F844F00D8B151 /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		DC7E53E4257F844F00D8B151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8E6DBD2580DC9A0029968F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DCD7EECB257FD79900C6921F /* BlueScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				DC7E53CB257F844E00D8B151 /* LaunchScreen.storyboard */,
 				DC7E53CE257F844E00D8B151 /* Info.plist */,
 				DCD7EECB257FD79900C6921F /* BlueScreenViewController.swift */,
+				DC8E6DBD2580DC9A0029968F /* ProfileViewController.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				DC7E53C5257F844B00D8B151 /* ViewController.swift in Sources */,
 				DCD7EECC257FD79900C6921F /* BlueScreenViewController.swift in Sources */,
+				DC8E6DBE2580DC9A0029968F /* ProfileViewController.swift in Sources */,
 				DC7E53C1257F844B00D8B151 /* AppDelegate.swift in Sources */,
 				DC7E53C3257F844B00D8B151 /* SceneDelegate.swift in Sources */,
 			);
